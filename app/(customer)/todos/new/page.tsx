@@ -30,7 +30,6 @@ const NewTodo = async () => {
       </Layout>
     );
   }
-
   return (
     <Layout className="mt-4 flex-col">
       <LayoutTitle>Create Todo</LayoutTitle>
