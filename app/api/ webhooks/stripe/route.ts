@@ -39,7 +39,6 @@ export const POST = async (req: NextRequest) => {
         stripeCustomerId: customerId,
       },
     });
-
     if (!user) {
       return NextResponse.json({ error: "User not found" }, { status: 404 });
     }

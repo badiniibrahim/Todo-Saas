@@ -46,6 +46,7 @@ CREATE TABLE "users" (
     "plan" "Plan" NOT NULL DEFAULT 'FREE',
     "creatAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updateAt" TIMESTAMP(3) NOT NULL,
+    "stripeCustomerId" TEXT,
 
     CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 );
